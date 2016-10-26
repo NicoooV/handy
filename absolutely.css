@@ -3,6 +3,7 @@ body {
 	font-family : Tahoma;
 	font-size : 14px;
 	background-color : black;
+	text-decoration: none;
 	/* toe te voegen */
 }
 .all {
@@ -12,5 +13,143 @@ body {
 	min-height : 600px;
 	background-image : url(bg.jpg);
 	border : 4px solid red;
+	text-decoration: none;
+
+}
+article{
+	background: rgba(188, 207, 207, 0.4);
+	padding: 0 10 10 10px;
+	position: relative;
+}
+div.top{
+	position: relative;
+}
+#title{
+	bottom: 290px;
+	margin-left: 5px;
+	position: absolute;
+}
+#saw{
+	position: absolute;
+	right: 560px;
+	margin-top: 80px;
+
+}
+#saw:hover{
+	position: absolute;
+	right: 560px;
+	margin-top: 60px;
+}
+#screwdriver{
+	position: absolute;
+	margin-left: 550px;
+	margin-top: 100px;
+}
+#hammer{
+ 	position: absolute;
+ 	bottom: 200px;
+ 	margin-left: 500px;
+}
+#toolbox{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 220px;
+}
+#pincers{
+ 	position: absolute;
+ 	margin-top: 250px;
+ 	margin-left: 560px;
+}
+div.top{
+	width: 700px;
+	height: 350px;
 }
 
+ul.toolbox {
+    list-style-type: none;
+    width: 100px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    position: absolute;
+    display: none;
+    padding: 0px;
+    text-decoration: none;
+  
+ }
+
+li.toolbox {
+	padding: 5 0 5 0px;
+    border-bottom: 1px solid ;
+    text-decoration: none;
+
+}
+
+li.toolbox a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+span#toolbox:hover ul.toolbox{
+   position: absolute;
+   display: inline-block;
+   left: 0;
+   top: 75;
+   z-index: 1000;
+   font-size: 16px;
+   
+}
+li.toolbox:hover{
+	background-color: #90FF82;
+}
+span#humanfactor{
+	color: blue;
+}
+span#hidden{
+	height: 75px;
+	width: 250px;
+	position: absolute;
+	z-index: 1000;
+	border: 4px solid blue;
+	left: 500px;
+	top: 105px;
+	border-radius: 15px;
+	padding: 1 0 0 12px;
+	display: none;
+
+}
+span#humanfactor:hover span#hidden{
+	display: inline-block;
+	color: black;
+	position: absolute;
+	background-color: white;
+}
+ul.upper-main{
+	background-image: url(bar1.png);
+ 	background-repeat: repeat-x;
+ 	text-decoration: none;
+}
+
+li.upper-main{
+ 	display: inline;
+ 	margin: 30px;
+ 	font-weight: bold; 
+ 	color: grey;
+}
+li.upper-main a{
+	text-decoration: none;
+ 	color:grey;
+ 	font-weight: bold;
+ 	display: inline;
+
+}
+
+ul.upper-main:hover{
+	background-image: url(bar2.png);
+	text-decoration: none;
+	background-repeat: repeat-x;
+}
+
+ul.upper-main:hover li.upper-main a {
+	color: black;
+}
